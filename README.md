@@ -24,10 +24,8 @@ The exercise constructs two synthetic DGPs — a discrete (binary) AI adoption s
 - *Construction of a second, continuous-treatment DGP, where AI investment — rather than a 0/1 indicator — feeds capital accumulation directly into the high-skill production function.*
 - *A manually implemented Callaway-Goodman Bacon-Sant'Anna (CGBS, 2025) continuous dose-response estimator, recovering year-specific Average Causal Responses (ACRs) and an aggregate ATT evaluated at mean dosage.*
 - *Side-by-side comparison of all four estimators (OLS, TWFE, SA, CGBS) across employment, wages, output and labor share, for both the discrete and continuous treatment settings.*
-### Data Gathering
- 
-- Not applicable — the dataset is entirely synthetic and generated within `Simulation.R`. No external data sources were used; all parameters (skill shares, TFP growth rates, adoption thresholds, investment distribution) are imposed directly in the DGP and documented in the report.
-- The report's final section discusses how the same framework could be applied to real-world data (firm-level AI investment classifications, R&D expenditure, or news-based AI adoption proxies).
+
+
 **Tools used:** R, Two-Way Fixed Effects (TWFE), Goodman-Bacon (2021) Decomposition, Sun & Abraham (2021) Estimator, Continuous-Treatment Difference-in-Differences (Callaway-Goodman Bacon-Sant'Anna, 2025).
  
 ---
